@@ -28,10 +28,11 @@
 - https://github.com/htlabnet/YM2413_Shield_For_v1/tree/master/Firmware/YM2413_Tetris を参考にさせていただきました。ありがとうございます。
 - DIP-SWの状態は起動時(setup()）のみ読み込みます。変更した場合はリセットしてください。
 ##### スイッチの機能
-- DIP-SW bit0 トーンマップ切替。0：GMっぽい配列  1:内蔵音色1-15の繰り返し
-- DIP-SW bit1 リズムON/OFF     0：メロディ音9音　1:メロディ音6音、リズム5音
-- DIP-SW bit2 未使用
-- DIP-SW bit3 未使用
+- DIP-SW
+-- bit0 トーンマップ切替。0：GMっぽい配列  1:内蔵音色1-15の繰り返し
+-- bit1 リズムON/OFF     0：メロディ音9音　1:メロディ音6音、リズム5音
+-- bit2 未使用
+-- bit3 未使用
 
 - SW2：MIDIパニック。note onのままで、note offが来ないとき（演奏中にMIDIケーブルを引き抜いてしまった等）、発音しっぱなしになりますが、このスイッチを押すと、すべての発音停止します。
 - SW3 : 未使用
