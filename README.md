@@ -1,7 +1,7 @@
 # PikoPikoBits FM
 - YM2413 FM Synthesizer Shield for Arduino
 - Piko Piko Bits FM は Arduino用 FM音源シールド です。
-- FM音源 YM2413、MIDI in/out搭載。ArduinoがFM音源シンセになります。
+- FM音源 YM2413（OPLL)、MIDI in/out搭載。ArduinoがFM音源シンセになります。
 - リポリトジ名がTypoですが。パッケージに記載しているのでそのままです（恥ずかしい）
 
 ![Photo](pikopikobitsFM.JPG)
